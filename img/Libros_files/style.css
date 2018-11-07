@@ -1,0 +1,71 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+nav {
+	position: fixed;
+	z-index: 100;
+}
+
+.parrafo {
+	text-align: justify;
+	font-size: 18px;
+}
+
+.activo {
+	background-color: #512da8;
+	border: 22px solid #512da8;
+}
+
+.fuente1 {
+	font-family: 'Gaegu', cursive;
+}
+
+.fuente2 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.fuente3 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.fuente4 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.fuente5 {
+	font-family: 'Kalam', cursive;
+}
+
+.textoBlanco {
+	color: white;
+}
+
+.tamanoNombre {
+	font-size: 60%;
+}
+
+.margen {
+	margin-left: 1px;
+}
+
+.cartas {
+	margin-top: 20%;
+}
+
+.descripcion {
+	font-size: 75%;
+	text-align: justify;
+}
+
+.titulo {
+	font-size: 80%;
+	text-align: justify;
+}
+
